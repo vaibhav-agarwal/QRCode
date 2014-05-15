@@ -4,7 +4,8 @@ import MySQLdb
 import encoding as en
 import decoding as de
 
-db = MySQLdb.connect("localhost","root","test123","crypto" )
+db = MySQLdb.connect("localhost","username","password","
+                    database" )
 cursor = db.cursor()
 #CREATE TABLE account(id int PRIMARY KEY , name VARCHAR(200) , balance VARCHAR(200));
 
@@ -205,7 +206,7 @@ def mainmenu():
     root=Tk()
     root.resizable(width=FALSE, height=FALSE)
     frame = Frame(root,width=300, height=200, bg="", colormap="new")
-    w=Label(root,text="JIIT Ca'fe Counter")
+    w=Label(root,text="Ca'fe Counter")
     b1 = Button(frame, text="Manage Accounts",height=2,width=15,command=account)
     b2 = Button(frame, text="Take Order",height=2,width=15,command=takeorder)
     b3 = Button(frame, text="Exit",height=2,width=15,command=cafeexit)
