@@ -1,5 +1,28 @@
 QR Code
 
-A small implementation of ENcryption and Decryption of data passed to QR Code
+A small implementation of Encryption and Decryption of data passed to QR Code
+
+Dependencies :- 
+
+1. qrcode
+   
+   https://pypi.python.org/pypi/qrcode
+   
+2. zbar
+
+  https://pypi.python.org/pypi/zbar/0.10
+  
+3. Image
+  
+  
+  http://effbot.org/imagingbook/image.htm
+  
+4. MySQLdb
+
+  https://pypi.python.org/pypi/MySQL-python/1.2.5
+   
+   
+   
+   
 
 
